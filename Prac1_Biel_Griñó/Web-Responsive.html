@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Prac1_Biel_Griñó </title>
+        <link rel="icon" href="CSS/Imatges/Logo.ico">
+		<link rel="stylesheet" type="text/css" href="CSS/Web-ResponsiveCSS.css"> 
+    </head>
+    <body class="estibody">
+        <!--Aquest DIV s'utilitza per a marcar el estil en forma de GRID de la pàgina-->
+        <div class="pagina">
+                 <header class="estilheader">
+                    <ul> 
+                        <li class="itemTitul">
+                            <h1><img src="CSS/Imatges/TITUL.png" alt="Logo de la marca (Caselles)"> </h1>
+                        </li>
+                        <li class="itemIcones">
+                            <img src="CSS/Imatges/idioma.png" alt="Icona Idioma">
+                            <img src="CSS/Imatges/usuario.png" alt="Icona Usuari">
+                            <img src="CSS/Imatges/cart.png" alt="Icona Carrito de la Compra">
+                        </li>
+                    </ul>
+                </header>
+            <!--Menu de navegació-->
+                <nav class="estilnav">
+                    <ul>
+                        <li class="estilnav-li"><a class="estilnav-enllaç" href="#populars"><h2><strong>POPULARS</strong></h2></a></li>
+                        <li class="estilnav-li"><a class="estilnav-enllaç" href="#destacats"><h2><strong>DESTACATS</strong></h2></a></li>   
+                        <li class="estilnav-li"><a class="estilnav-enllaç" href="#categories"><h2><strong>CATEGORIES</strong></h2></a></li>
+                        <li class="buscador"><h2>Buscar... </h2></li>
+                    </ul>
+                </nav> 
+            <!--Slider-->
+                <main>
+                    <div class="slider">
+                        <ul>
+                            <li><img src="CSS/Imatges/novetats-llibres-slider.png" alt="Imatge amb llibres de fons i unes lletres (NOVETATS LLIBRES)"></li>
+                            <li><img src="CSS/Imatges/novetats-comic-slider.png" alt="Imatge amb comics de fons i un titul (Novetats COMICS)"></li>
+                            <li><img src="CSS/Imatges/novetats-manga-SLIDER.png" alt="Imatge amb vinyetes i dibuixos de fons i un titul (Novetats Manga)"></li>
+                        </ul>
+                    </div>
+                <!--Llibres/Productes Populars-->
+                    <section class="estilPopulars">
+                        <ul><li><a id="populars"><h2><strong>ELS MÉS POPULARS</strong></h2></a></li></ul>
+                        <article>
+                            <figure class="Top1">
+                                <h3> I</h3>
+                                <img src="CSS/Imatges/top1.JPG" alt="Imatge del Top1">
+                            </figure>
+                            <figure class="Top2">
+                                <h3> II</h3>
+                                <img src="CSS/Imatges/Top2.jpg" alt="Imatge del Top2">
+                            </figure>
+                            <figure class="Top3">
+                                <h3> III</h3>
+                                <img src="CSS/Imatges/Top3.jpg" alt="Imatge del Top3">
+                            </figure>
+                            <figure class="Top4">
+                                <h3> IV</h3>
+                                <img src="CSS/Imatges/top5.jpg" alt="Imatge del Top4">
+                            </figure>
+                            <figure class="Top5">
+                                <h3> V</h3>
+                                <img src="CSS/Imatges/top4.png" alt="Imatge del Top5">
+                            </figure>
+                        </article>
+                    </section>
+                <!--Apartat amb elements d'interes per al usuari-->
+                    <section class="estilDestacats">
+                        <ul><li><a id="destacats"><h2><strong>DESTACATS PER A TU</strong></h2></a></li></ul>
+                        <article>
+                            <div class="estilDestacats-responsive">
+                                <div class="Destacats-Galeria">
+                                    <img src="CSS/Imatges/Destacats1.jpg" alt="Imatge amb un llibre destacat per a l'usuari" >
+                                    <div class="Destacats-Desc"><h4>EL ALIENTO DE LOS DISOSES</h4></div>
+                                </div>
+                            </div>
+                            <div class="estilDestacats-responsive">
+                                <div class="Destacats-Galeria">
+                                    <img src="CSS/Imatges/destacats2.jpg" alt="Imatge amb un llibre destacat per a l'usuari" >
+                                    <div class="Destacats-Desc"><h4>LA RUEDA DEL TIEMPO 14</h4></div>
+                                </div>
+                            </div>
+                            <div class="estilDestacats-responsive">
+                                <div class="Destacats-Galeria"> 
+                                    <img src="CSS/Imatges/destacats3.jpg" alt="Imatge amb un llibre destacat per a l'usuari" >
+                                    <div class="Destacats-Desc"><h4>GIDEON LA NOVENA</h4></div>
+                                </div> 
+                            </div>
+                            <div class="estilDestacats-responsive">
+                                <div class="Destacats-Galeria">
+                                    <img src="CSS/Imatges/destacats4.jpg" alt="Imatge amb un llibre destacat per a l'usuari">
+                                    <div class="Destacats-Desc"><h4>EL DON</h4></div>
+                                </div>  
+                            </div>
+                        <div class="clearfix"></div>
+                        </article>
+                    </section>
+                <!--Apartat amb les diferents categories que ofereix la pàgina web-->
+                <section class="estilCategories">
+                        <ul><li><a id="categories"><h2><strong>CATEGORIES MÉS POPULARS</strong></h2> </a></li></ul>
+                        <article>
+                            <div class="estilCategories-responsive">
+                                <div class="estilCategories-Item"><h3>INFANTIL</h3></div>
+                            </div>
+                            <div class="estilCategories-responsive">
+                                    <div class="estilCategories-Item"><h3>EDUCATIU</h3></div>
+                            </div>
+                            <div class="estilCategories-responsive">
+                                    <div class="estilCategories-Item"><h3>BIBLIOGRAFIES</h3></div>
+                            </div>
+                            <div class="estilCategories-responsive">
+                                    <div class="estilCategories-Item"><h3>MANGA</h3></div>
+                            </div>
+                             <div class="estilCategories-responsive">
+                                    <div class="estilCategories-Item"><h3>CÒMIC</h3></div>
+                            </div>
+                        <div class="clearfix"></div>
+                        </article>
+                    </section>
+                </main>
+               <!--Barra Lateral en la que és mostren els llibres del usuari-->
+                <aside>
+                    <ul><li><h2 class="titulaside"><strong>LLIBRES USUARI</strong></h2></li></ul>
+                    <div class="Galeria-User-Responsive">
+                        <div class="Galeria-User">
+                            <img src="CSS/Imatges/llibre-usuari1.jpg" alt="Imatge del ultim llibre/producte adquirit per l'usuari">
+                            <div class="Galeria-User-Desc"><h4>LA RUEDA DEL TIEMPO 2</h4></div>
+                        </div>
+                    </div>
+                    <div class="Galeria-User-Responsive">
+                        <div class="Galeria-User">
+                            <img src="CSS/Imatges/llibres-usuari2.jpg" alt="Imatge del ultim llibre/producte adquirit per l'usuari">
+                            <div class="Galeria-User-Desc"><h4>HARROW LA NOVENA</h4></div>
+                        </div>
+                    </div>
+                    <div class="Galeria-User-Responsive">
+                        <div class="Galeria-User">
+                            <img src="CSS/Imatges/llibres-usuari3.jpg" alt="Imatge del ultim llibre/producte adquirit per l'usuari">
+                            <div class="Galeria-User-Desc"><h4>CIENCIA OSCURA</h4></div>
+                        </div>
+                    </div>
+                </aside>
+                <footer>
+                    <section class="estilFooter">
+                        <ul>
+                            <li class="infoFooter">
+                                <h5>CONTACTANS</h5>
+                                <h6>TEL: 973 24 23 46</h6>
+                                <h6>info@lacaselles.com</h6>
+                            </li>
+                            <li class="infoFooter">
+                                <h5>BOTIGA FISICA</h5>
+                                <h6>HORARI MATINS: 9:30 - 13:30 (DILLUNS-DIVENDRES) </h6>
+                                <h6>HORARI TARDES: 16:30 - 20:30 (DILLUNS-DIVENDRES) </h6>
+                                <h6>JULIOL I AGOST: 9:30 - 14:00 (DISSABTES)</h6>
+                            </li>                 
+                            <li class="infoFooter-Icones">
+                                <img src="CSS/Imatges/facebook.png" alt="Icona Facebook">
+                                <img src="CSS/Imatges/instagram.png" alt="Icona Instagram">
+                                <img src="CSS/Imatges/twitter.png" alt="Icona Twitter">
+                                <a href="https://goo.gl/maps/fSBcNqucpwSUxncN8" target="_blank" rel="noreferrer noopener"><img src="CSS/Imatges/marcador-de-posicion.png" alt="Icona Posició"> </a>
+                            </li>
+                        </ul>
+                    </section>
+                </footer>
+        </div>
+    </body>
+
+    
+</html>
